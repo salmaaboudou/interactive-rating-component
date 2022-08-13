@@ -148,3 +148,33 @@ p{
 .attribution a{
     color : white;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 375px){
+    
+    .card{
+        width: 80%;
+        height: auto;
+        align-items: center;
+        
+    }
+
+    #container_numbers{
+        padding-right:50px;
+    }
+
+    .number{
+        width: 2rem;
+        height: 2rem;
+        padding: 0.5rem;
+        border-radius: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
