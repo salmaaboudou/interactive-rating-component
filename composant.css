@@ -79,7 +79,7 @@ p{
     color: hsl(217, 12%, 63%) ;
 }
 
-#submit_button{
+.submit_button{
     background-color:hsl(25, 97%, 53%) ;
     width: 100%;
     border-radius: 6rem;
@@ -93,6 +93,25 @@ p{
     color: white;
 }
 
+/* classes for events  */
+
+.number.mouseover{
+    background-color : hsl(217, 12%, 63%);
+    color : white;
+    cursor: pointer;
+
+}
+.number.selected{
+    background: hsl(25, 97%, 53%) ;
+    color: white ;
+}
+
+.submit_button.mouseover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+
+}
 
 
 /*            PAGE 2              */
@@ -186,7 +205,7 @@ p{
         font-size: 12.5px;
     }
 
-    #submit_button{
+    .submit_button{
         margin-top: 1rem;
     }
 
