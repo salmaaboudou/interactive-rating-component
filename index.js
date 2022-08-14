@@ -72,9 +72,7 @@ submitButton.addEventListener('click', () =>{
 // Rating event
 
 containerNumbers.addEventListener('click', (e) => {
-  // event.target : retourne l'élément qui a déclenché l'évenement -> le texte à l'int du button appuyé
   let value = e.target.innerText;
-  // On ajoute la valeur de "value" récupéré dans le texte html de class="rValue"
   ratingValue.textContent = value; 
     
 });

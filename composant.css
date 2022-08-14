@@ -151,19 +151,6 @@ p{
     font-size: 15px;
 }
 
-/* FOOTER */
-
-.attribution{
-    width: 350px;
-    margin: auto;
-    color: white;
-    font-family: 'overpassregular';
-    font-size: 16px;
-}
-
-.attribution a{
-    color : white;
-}
 
 /* RESPONSIVE */
 
