@@ -68,6 +68,13 @@ containerNumbers.addEventListener('click', (e) => {
   let value = e.target.innerText;
   // On ajoute la valeur de "value" récupéré dans le texte html de class="rValue"
   ratingValue.textContent = value;
+
+  if (value == '') {
+    
+    ratingValue.textContent.display = "none";
+    ratingValue.textContent = 'Error';
+  } 
+    
 });
     
 
